@@ -1,0 +1,27 @@
+{
+  "name": "todo-chocolate-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec",
+    "cover": "istanbul cover  ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG6/ToDo-Chocolate-Team.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG6/ToDo-Chocolate-Team/issues"
+  },
+  "homepage": "https://github.com/FACG6/ToDo-Chocolate-Team#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^1.1.0-alpha.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.2"
+  }
+}
